@@ -1,24 +1,27 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./App.css";
+import Page1 from "./components/Page1";
+import Page2 from "./components/Page2";
+import Counter from "./components/Counter";
+import Eventet from "./components/Eventet";
+import EventBind from "./components/EventBind";
+import ClassEvent from "./components/ClassEvent";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <Page1 name="Rexhep" age="24" location="Skopje">
+        <p>this is sending props to parent from child</p>
+      </Page1> */}
+      {/* <Page1 name="Florim" age="24" location="Konjare">
+        <button>Click</button>
+      </Page1> */}
+      {/* <Page1 name="Ramadan" age="16" location="Skopje"></Page1> */}
+      {/* <Page2 /> */}
+      {/* <Counter /> */}
+      {/* <Eventet /> */}
+      {/* <ClassEvent /> */}
+      {/* <EventBind /> */}
     </div>
   );
 }
