@@ -6,6 +6,7 @@ import Counter from "./components/Counter";
 import Eventet from "./components/Eventet";
 import EventBind from "./components/EventBind";
 import ClassEvent from "./components/ClassEvent";
+import MethodsAsProps from "./components/MethodsAsProps";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
       {/* <Eventet /> */}
       {/* <ClassEvent /> */}
       {/* <EventBind /> */}
+      {/* <MethodsAsProps /> */}
     </div>
   );
 }
