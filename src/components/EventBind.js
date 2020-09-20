@@ -13,11 +13,11 @@ export class EventBind extends Component {
   //       message: "Goodbye",
   //     });
   //   }
-  clickHandler = () => {
-    this.setState({
-      message: "Goodbye",
-    });
-  };
+  // clickHandler = () => { metoda 4
+  //   this.setState({
+  //     message: "Goodbye",
+  //   });
+  // };
   render() {
     return (
       <div>
@@ -25,7 +25,7 @@ export class EventBind extends Component {
         {/* <button onClick={this.clickHandler.bind(this)}>Click</button> Metoda e 1. */}
         {/* <button onClick={() => this.clickHandler()}>Click</button> Metoda e 2. */}
         {/* <button onClick={this.clickHandler}>Click</button> Metoda e 3. */}
-        <button onClick={this.clickHandler}>Click</button> Metoda e 4.
+        {/* <button onClick={this.clickHandler}>Click</button> Metoda e3 dhe 4. */}
       </div>
     );
   }
