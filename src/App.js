@@ -3,16 +3,23 @@ import "./App.css";
 import Page1 from "./components/Page1";
 import Page2 from "./components/Page2";
 import Counter from "./components/Counter";
-import Eventet from "./components/Eventet";
-import EventBind from "./components/EventBind";
-import ClassEvent from "./components/ClassEvent";
-import MethodsAsProps from "./components/MethodsAsProps";
+import Eventet from "./components/Events/Eventet";
+import EventBind from "./components/Events/EventBind";
+import ClassEvent from "./components/Events/ClassEvent";
+import MethodsAsProps from "./components/MethodsAsProps/MethodsAsProps";
 import ConditinalRendering from "./components/ConditinalRendering";
-import ListRendering from "./components/ListRendering";
+import ListRendering from "./components/Listrendering/ListRendering";
 import StyleSheet from "./components/StyleSheet";
 import InlineStyle from "./components/InlineStyle";
 import FormsHandling from "./components/FormsHandling";
-
+import ReactFragments from "./components/ReactFragments";
+import Table from "./components/Table";
+import PureComp from "./components/RPMcomponents/PureComp";
+import ParentComp from "./components/RPMcomponents/ParentComp";
+import Refsdemo from "./components/Refs/Refsdemo";
+import RefClassParent from "./components/Refs/RefClassParent";
+import ClickCounter from "./components/HigherOrderComponents/ClickCounter";
+import HoverCounter from "./components/HigherOrderComponents/HoverCounter";
 function App() {
   return (
     <div className="App">
@@ -34,9 +41,16 @@ function App() {
       {/* <ListRendering /> */}
       {/* <StyleSheet primary={true} /> */}
       {/* <InlineStyle /> */}
-      //#endregion
       {/* Perdorimi i formave */}
       {/* <FormsHandling /> */}
+      {/* <ReactFragments /> */}
+      {/* <Table /> */}
+      {/* <ParentComp /> */}
+      {/* <Refsdemo /> */}
+      {/* <RefClassParent /> */}
+      {/* <ClickCounter /> */}
+      {/* <HoverCounter /> */}
+      //#endregion
     </div>
   );
 }
