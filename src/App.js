@@ -11,6 +11,7 @@ import ConditinalRendering from "./components/ConditinalRendering";
 import ListRendering from "./components/ListRendering";
 import StyleSheet from "./components/StyleSheet";
 import InlineStyle from "./components/InlineStyle";
+import FormsHandling from "./components/FormsHandling";
 
 function App() {
   return (
@@ -35,6 +36,7 @@ function App() {
       {/* <InlineStyle /> */}
       //#endregion
       {/* Perdorimi i formave */}
+      {/* <FormsHandling /> */}
     </div>
   );
 }
