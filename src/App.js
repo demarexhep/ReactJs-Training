@@ -7,10 +7,15 @@ import Eventet from "./components/Eventet";
 import EventBind from "./components/EventBind";
 import ClassEvent from "./components/ClassEvent";
 import MethodsAsProps from "./components/MethodsAsProps";
+import ConditinalRendering from "./components/ConditinalRendering";
+import ListRendering from "./components/ListRendering";
+import StyleSheet from "./components/StyleSheet";
+import InlineStyle from "./components/InlineStyle";
 
 function App() {
   return (
     <div className="App">
+      //#region
       {/* <Page1 name="Rexhep" age="24" location="Skopje">
         <p>this is sending props to parent from child</p>
       </Page1> */}
@@ -24,6 +29,12 @@ function App() {
       {/* <ClassEvent /> */}
       {/* <EventBind /> */}
       {/* <MethodsAsProps /> */}
+      {/* <ConditinalRendering /> */}
+      {/* <ListRendering /> */}
+      {/* <StyleSheet primary={true} /> */}
+      {/* <InlineStyle /> */}
+      //#endregion
+      {/* Perdorimi i formave */}
     </div>
   );
 }
