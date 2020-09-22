@@ -2,7 +2,7 @@ import React from "react";
 import "./App.css";
 import Page1 from "./components/Page1";
 import Page2 from "./components/Page2";
-import Counter from "./components/Counter";
+import Counteri from "./components/Counteri";
 import Eventet from "./components/Events/Eventet";
 import EventBind from "./components/Events/EventBind";
 import ClassEvent from "./components/Events/ClassEvent";
@@ -20,6 +20,8 @@ import Refsdemo from "./components/Refs/Refsdemo";
 import RefClassParent from "./components/Refs/RefClassParent";
 import ClickCounter from "./components/HigherOrderComponents/ClickCounter";
 import HoverCounter from "./components/HigherOrderComponents/HoverCounter";
+import Counter from "./components/RenderProps/Counter";
+
 function App() {
   return (
     <div className="App">
@@ -51,6 +53,16 @@ function App() {
       {/* <ClickCounter /> */}
       {/* <HoverCounter /> */}
       //#endregion
+      <Counter
+        render={(count, incrementHandle) => (
+          <ClickCounter count={count} incrementHandle={incrementHandle} />
+        )}
+      />
+      <Counter
+        render={(count, incrementHandle) => (
+          <HoverCounter count={count} incrementHandle={incrementHandle} />
+        )}
+      />
     </div>
   );
 }
