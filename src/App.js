@@ -21,11 +21,15 @@ import RefClassParent from "./components/Refs/RefClassParent";
 import ClickCounter from "./components/HigherOrderComponents/ClickCounter";
 import HoverCounter from "./components/HigherOrderComponents/HoverCounter";
 import Counter from "./components/RenderProps/Counter";
+import ClassCounter from "./DATA/ClassCounter";
+import HookCounter from "./DATA/HookCounter";
+import HookCounter2 from "./DATA/HookCounter2";
+import HookCounter3 from "./DATA/HookCounter3";
+import HookCounter4 from "./DATA/HookCounter4";
 
 function App() {
   return (
     <div className="App">
-      //#region
       {/* <Page1 name="Rexhep" age="24" location="Skopje">
         <p>this is sending props to parent from child</p>
       </Page1> */}
@@ -52,8 +56,7 @@ function App() {
       {/* <RefClassParent /> */}
       {/* <ClickCounter /> */}
       {/* <HoverCounter /> */}
-      //#endregion
-      <Counter
+      {/* <Counter
         render={(count, incrementHandle) => (
           <ClickCounter count={count} incrementHandle={incrementHandle} />
         )}
@@ -62,7 +65,14 @@ function App() {
         render={(count, incrementHandle) => (
           <HoverCounter count={count} incrementHandle={incrementHandle} />
         )}
-      />
+      /> */}
+
+      {/* Working with HOOKS */}
+      {/* <ClassCounter /> */}
+      {/* <HookCounter /> */}
+      {/* <HookCounter2 /> */}
+      {/* <HookCounter3 /> */}
+      <HookCounter4 />
     </div>
   );
 }
