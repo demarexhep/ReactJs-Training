@@ -26,6 +26,8 @@ import HookCounter from "./DATA/HookCounter";
 import HookCounter2 from "./DATA/HookCounter2";
 import HookCounter3 from "./DATA/HookCounter3";
 import HookCounter4 from "./DATA/HookCounter4";
+import HookCounterOne from "./DATA/HookCounterOne";
+import HookMouse from "./DATA/HookMouse";
 
 function App() {
   return (
@@ -68,11 +70,16 @@ function App() {
       /> */}
 
       {/* Working with HOOKS */}
+
       {/* <ClassCounter /> */}
       {/* <HookCounter /> */}
       {/* <HookCounter2 /> */}
       {/* <HookCounter3 /> */}
-      <HookCounter4 />
+      {/* <HookCounter4 /> */}
+      {/* <HookCounterOne /> */}
+      {/* <HookMouse /> */}
+
+      {/* Fetching Data with hooks */}
     </div>
   );
 }
