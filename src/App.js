@@ -28,6 +28,7 @@ import HookCounter3 from "./DATA/HookCounter3";
 import HookCounter4 from "./DATA/HookCounter4";
 import HookCounterOne from "./DATA/HookCounterOne";
 import HookMouse from "./DATA/HookMouse";
+import DataFetching from "./fetchingData/DataFetching";
 
 function App() {
   return (
@@ -79,7 +80,8 @@ function App() {
       {/* <HookCounterOne /> */}
       {/* <HookMouse /> */}
 
-      {/* Fetching Data with hooks */}
+      {/* Fetching Data with hooks / axios */}
+      {/* <DataFetching /> */}
     </div>
   );
 }
